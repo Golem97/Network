@@ -1,0 +1,17 @@
+
+To run sniffandspoof.c:
+
+gcc sniffandspoof.c -lpcap
+sudo ./a.out
+
+
+To run spoof.c:
+
+gcc spoof.c -lpcap
+sudo ./a.out
+
+To run TCP_sniffer.c:
+
+gcc TCP_sniffer.c -lpcap
+sudo ./a.out
+
